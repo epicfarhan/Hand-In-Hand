@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+
+body{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F0A500;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+
+.navbar-main{
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.hih-logo{
+    color: black;
+    padding-top: 40px;
+    margin: auto;
+    font-size: 36px;
+}
+
+.hero-head{
+    text-align: center;
+    color: #F0A500;
+}
+
+#demo {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 170px;
+  }
+
+
+  
+  ul {
+    list-style-type: none;
+  }
+    li {
+      border-radius: 10%;
+      height: 100px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 1em;
+      font-size: 64px;
+      color: black;
+      font-weight: 700;
+    }
+  
+
+    .demo-head{
+        text-align: center;
+        color: #082032;
+        font-size: 18px;
+        }
+
+    .demo-icon{
+        font-size: 47px;
+        color: aliceblue;
+    }
+
+    .demo-icon-align{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+
+
+    .box-head{
+        color: white;
+    }
+
+
+    .hehe{
+        display: flex;
+        grid-template-rows: 50% 50%;
+        
+    }
+
+  
+
+
+   
+
+
+    .border {
+        width: 19%;
+        border-radius: 92px;
+        margin: auto;
+        height: 6px;
+        background-color: black;
+    }
+
+
+
+    .fut-text{
+        font-size: 13px;
+    width: 232px;
+    margin: auto;
+    padding-top: 185px;
+    padding-bottom: 15px;
+    text-align: center;
+    line-height: 19px;
+    }
+
+
+
+
+
+    @media  screen and (max-width : 900px) {
+        
+        #demo {
+            display: block;
+            justify-content: center;
+            padding: 0px;
+            margin-top: 170px;
+        }
+
+        li {
+            border-radius: 10%;
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            font-size: 64px;
+            color: black;
+            font-weight: 700;
+        }
+
+        .border {
+            width: 6%;
+            border-radius: 92px;
+            margin: auto;
+            height: 6px;
+            background-color: black;
+        }
+
+        .box{
+            padding-bottom: 99px;
+        }
+
+    }
+
+
+
+    @media  screen and (max-width : 500px) {
+        
+
+        .algn{
+        
+                margin-top: -70px;
+        }
+
+        .fut-text {
+            font-size: 13px;
+            width: 232px;
+            margin: auto;
+            padding-top: 110px;
+            padding-bottom: 15px;
+            text-align: center;
+            line-height: 19px;
+        }
+
+    }
+
+
+    @media  screen and (max-width : 416px) {
+        
+        .border {
+            width: 12%;
+            border-radius: 92px;
+            margin: auto;
+            height: 6px;
+            background-color: black;
+        }
+
+
+
+    }
